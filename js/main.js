@@ -1,7 +1,7 @@
 let wrapper = document.querySelector('.wrapper')
-let images = document.querySelectorAll('.img')
+let imgs = document.querySelectorAll('.img')
 let img1 = document.querySelector('.img1')
-for (const iterator of images) {
+for (const iterator of imgs) {
     iterator.addEventListener('click', function(){
         let imgAttribute = this.getAttribute('src')
         document.img1.src = imgAttribute
