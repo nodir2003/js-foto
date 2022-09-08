@@ -4,6 +4,6 @@ let img1 = document.querySelector('.img1')
 for (const iterator of imgs) {
     iterator.addEventListener('click', function(){
         let imgAttribute = this.getAttribute('src')
-        document.img1.src = imgAttribute
+        img1.setAttribute('src', imgAttribute)
     })
 }
